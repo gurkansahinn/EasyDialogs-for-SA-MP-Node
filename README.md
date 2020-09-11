@@ -26,7 +26,8 @@ public JS_DialogShow(playerid, id[], name[], type, header[], message[], button1[
 
 // if u want open dialog use this
 samp.callPublic("JS_DialogShow", "issdssss", playerid, "dialog_name", "dialog_name", type_id, "header_text", "inputtext", "button1", "button2")
-and yes u write dialog_name two times.
+
+// and yes u write dialog_name two times.
 
 // dialog callback in js
 samp.registerEvent("dialog_name", "idds");
