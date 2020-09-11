@@ -128,7 +128,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if ((s_Public == -1) || (CallLocalFunction("OnDialogPerformed", "dsdd", playerid, string[7], response, funcidx(string) != -1)))
 		{
 	 		CallLocalFunction(string, "ddds", playerid, response, listitem, (!inputtext[0]) ? ("\1") : (inputtext));
-			printf("%s, %s", s_DialogName[playerid], string);
 			SAMPNode_CallEvent(s_DialogName[playerid], playerid, response, listitem, (!inputtext[0]) ? ("\1") : (inputtext));
 		}
 	}
