@@ -20,7 +20,7 @@ DIALOG_STYLE_TABLIST_HEADERS	5
 forward JS_DialogShow(playerid, id[], name[], type, header[], message[], button1[], button2[]);
 public JS_DialogShow(playerid, id[], name[], type, header[], message[], button1[], button2[])
 {
-	  Dialog_Show(playerid, id, name, type, header, message, button1, button2);
+    Dialog_Show(playerid, id, name, type, header, message, button1, button2);
     return 1;
 }
 
