@@ -1,5 +1,10 @@
 # SA-MP Node (easydialogs include)
 
+### SA-MP Node
+a SA-MP plugin to support nodejs apps and run them on your server.
+(repo link: [AmyrAhmady/samp-node](https://github.com/AmyrAhmady/samp-node))
+
+
 ### How To Use
 ```
 // dialog types
